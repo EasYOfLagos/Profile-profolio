@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: #fff;
+}
+
+.cv a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.cvbreak img {
+    
+    grid-template-columns: 2fr;
+    margin: 0.5rem;
+    width: 400px ;
+    height: 400px;
+}
+
+
+.btn{
+    display: inline-block;
+    padding: 11px 26px;
+    background: #13bbff;
+    border: 2px solid ;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .50s ease;
+}
+
+.btn:hover{
+    background: transparent;
+    color: white;
+    box-shadow: white;
+}

@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+
+.icons_images img {
+    width: 70px;
+    height: 70px;
+}
+
+.icons_images a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 10px;
+    border-radius: 50%;
+    backdrop-filter: brigthness(88%);
+
+}
+
+.contact a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px black;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #a3a3a3;
+}
+
+.form form {
+    width: 500px;
+    margin-top: 70px !important;
+    
+
+}
+
+.frm-inp {
+    width: 100%;
+    margin-bottom: 10px;
+    display: grid;
+    gap: 15px;
+}
+
+.inp-ctrl {
+    display: grid;
+    gap: 40px;
+    color: #fff;
+    
+}
+
+
+.inp-ctrl input,
+.inp-ctrl textarea {
+    width: 80%;
+    height: 40px;
+    outline: none;
+    padding: 0 5px;
+    border: none;
+    border-bottom: 2px solid #13bbff;
+    border-radius: 10px;
+    
+    
+}
+
+.inp-ctrl input[type='text'] {
+    background-color: #13bbff;
+}
+
+.inp-ctrl textarea {
+    padding-top: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 11px 26px;
+    background: #13bbff;
+    border: 2px solid;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .50s ease;
+}
+
+.btn:hover {
+    background: transparent;
+    color: white;
+    box-shadow: white;
+}
+
