@@ -27,12 +27,16 @@ function Background() {
     }
 
     const handleGoForward = () => {
-        navigate(1)
+        navigate(1);
     }
 
     const handleReload = () => {
-        navigate(0)
+        navigate(0);
     }
+    const handleGoUp = () => {
+        navigate(-1);
+    }
+
     return (
         <div>
             <div className='grandparent'>
@@ -43,13 +47,13 @@ function Background() {
                             <h6 className='mt-2 fw-bold'>Home</h6>
                         </div>
 
-                        <div className='close_icon'>
+                        <div className='close_icon m-1'>
                             <IoClose />
                         </div>
 
                     </div>
 
-                    <div className='home_plus'>
+                    <div className='home_plus m-1'>
                         <TiPlus />
                     </div>
                 </div>
@@ -65,7 +69,7 @@ function Background() {
                         </div>
 
                         <div>
-                            <FaArrowUp />
+                            <FaArrowUp onClick={handleGoUp} />
                         </div>
 
                         <div>

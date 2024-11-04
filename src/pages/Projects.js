@@ -23,11 +23,11 @@ function Projects() {
                 </Link>
               </div>
               <div>
-                <Link><img src={require("./../port image/icons8-file-explorer-new-96.png")} alt="" />
+                <Link to='/workprojects'><img src={require("./../port image/icons8-file-explorer-new-96.png")} alt="" />
                   <span className='fw-bold'>work projects</span>
                 </Link>
               </div>
-              <div><Link><img src={require("./../port image/icons8-folder-96.png")} alt="" />
+              <div><Link ><img src={require("./../port image/icons8-folder-96.png")} alt="" />
                 <span className='fw-bold'>incoming projects</span>
               </Link>
               </div>

@@ -5,3 +5,23 @@
   box-sizing: border-box;
 }
 
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}

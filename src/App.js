@@ -4,6 +4,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 
+import {ThemeProvider, useTheme} from "./pages/Themeprovider";
+import ThemeToggle from "./pages/ThemeToggle";
+
+
 const Home = React.lazy(() => import("./pages/Home"))
 const About = React.lazy(() => import("./pages/About"))
 const Projects = React.lazy(() => import("./pages/Projects"))
@@ -17,8 +21,13 @@ const Blog = React.lazy(() => import("./pages/Blog"))
 
 
 function App() {
+  
   return (
-    <div className="App">
+    <div className='App'>
+      
+      
+
+          
       <React.Suspense>
         {/* <Homecomp/> */}
         <BrowserRouter>
@@ -36,6 +45,7 @@ function App() {
         </Routes>
         </BrowserRouter>
       </React.Suspense>
+     
      
     </div >
   );
