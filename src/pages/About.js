@@ -17,7 +17,7 @@ function About() {
             <div className="about-me">
               <h1 className=''>About Me</h1>
               <hr />
-              <p>Hi my name is Ibiyemi Isiaka Olalekan, a passionate frontend & backend developer in Lagos Nigeria with a Higher National Diploma in Business Administration and management study. I'm passionate about bringing both the technical and visual aspects of digital products to life. User experience, beautiful pixels and writing clean human code matters to me.</p>
+              <p>Hi my name is Ibiyemi Isiaka Olalekan, a passionate frontend & backend developer, with a Higher National Diploma in Business Administration and management study. I'm passionate about bringing both the technical and visual aspects of digital products to life. User experience, beautiful pixels and writing clean human code matters to me.</p>
 
               <p>I believe in defining myself not by my past work, but by the work I aspire to accomplish. I value continuous learning, self-challenge, and meaningful pursuits. Fueled by high energy and boundless enthusiasm, I am easily inspired and always eager to follow my passions. My diverse interests, hobbies, and areas of study fuel my passion for creativity and innovation. I am a fast learner, capable of acquiring new skills and managing multiple projects with ease. I strive to develop expertise in several areas throughout my life and career.</p>
 
