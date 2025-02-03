@@ -27,3 +27,8 @@
     flex-wrap: wrap;
     gap: 20px;
 }
+
+.posi{
+    width: auto;
+    height: 150px;
+}

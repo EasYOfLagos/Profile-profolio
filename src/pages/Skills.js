@@ -76,9 +76,9 @@ function Skills() {
 
                         </div>
 
-                        <div>
-                            <h6 className=' text-white mt-4'>Version Control</h6>
-                            <div className="control">
+                        <div className='posi'>
+                            <h6 className='text-white mt-4'>Version Control</h6>
+                            <div className="control ">
                                 <div className="github">
                                     <p className='fw-bold text-white mt-2'>Github</p>
                                     <FaGithub size={50} color="#3498db" />

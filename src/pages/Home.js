@@ -58,17 +58,17 @@ function Home() {
 
             <Link className='d-flex align-items-center' >
               <img src={require("./../port image/portfolio-Drive-big-disk.png")} alt="" />
-              <p className='fw-bold ms-2 mt-3'>Local Disk(C:)</p>
+              <p className='fw-bold ms-2 mt-2'>Local Disk(C:)</p>
             </Link>
 
             <Link className='d-flex align-items-center' >
               <img src={require("./../port image/portfolio-Drive-win.png")} alt="" />
-              <p className='fw-bold ms-2 mt-3'>DVD RW Drive(E:)</p>
+              <p className='fw-bold ms-2 mt-2'>DVD RW Drive(E:)</p>
             </Link>
 
             <Link className='d-flex align-items-center' >
               <img src={require("./../port image/portfolio-Drive-network.png")} alt="" />
-              <p className='fw-bold ms-2 mt-3'>Google Drive(G:)</p>
+              <p className='fw-bold ms-2 mt-2'>Google Drive(G:)</p>
             </Link>
 
           </div>
